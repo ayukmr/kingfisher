@@ -1,0 +1,4 @@
+#!/usr/bin/env zsh
+
+program="$(ruby kingfisher.rb "$1")"
+echo "$2" | beef -p "$program" | hexyl -P -b 10 --border none

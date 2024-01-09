@@ -1,0 +1,5 @@
+set 0 15
+inp 1
+
+div 0 1
+out 0
